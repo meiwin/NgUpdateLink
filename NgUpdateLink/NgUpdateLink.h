@@ -1,0 +1,34 @@
+//
+//  NgUpdateLink.h
+//  NgUpdateLink
+//
+//  Created by Meiwin Fu on 18/10/15.
+//  Copyright © 2015 BlockThirty. All rights reserved.
+//
+
+@import UIKit;
+
+#pragma mark -
+@protocol NgUpdateLinkUpdate <NSObject>
+@required
+- (void)ng_setNeedsUpdate;
+- (void)ng_update;
+@end
+
+#pragma mark -
+@interface NgUpdateLink : NSObject
+
++ (NgUpdateLink *)currentInstance;
+
+- (instancetype)init __unavailable;
+- (void)addUpdate:(id<NgUpdateLinkUpdate>)update;
+
+@end
+
+#pragma mark -
+@interface NSObject (NgUpdateLink) <NgUpdateLinkUpdate>
+
+- (void)ng_setNeedsUpdate;
+- (void)ng_update;
+
+@end

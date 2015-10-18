@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCC70AD71BD3CC8B00EFC7C3 /* NgUpdateLink.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DCC70AD61BD3CC8B00EFC7C3 /* NgUpdateLink.h */; };
+		DCC70AD91BD3CC8B00EFC7C3 /* NgUpdateLink.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC70AD81BD3CC8B00EFC7C3 /* NgUpdateLink.m */; };
+		DCC70AE71BD3CC9600EFC7C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC70AE61BD3CC9600EFC7C3 /* main.m */; };
+		DCC70AEA1BD3CC9600EFC7C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC70AE91BD3CC9600EFC7C3 /* AppDelegate.m */; };
+		DCC70AED1BD3CC9600EFC7C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC70AEC1BD3CC9600EFC7C3 /* ViewController.m */; };
+		DCC70AF01BD3CC9600EFC7C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC70AEE1BD3CC9600EFC7C3 /* Main.storyboard */; };
+		DCC70AF21BD3CC9600EFC7C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC70AF11BD3CC9600EFC7C3 /* Assets.xcassets */; };
+		DCC70AF51BD3CC9600EFC7C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC70AF31BD3CC9600EFC7C3 /* LaunchScreen.storyboard */; };
+		DCC70AFC1BD3CD1300EFC7C3 /* libNgUpdateLink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC70AD31BD3CC8B00EFC7C3 /* libNgUpdateLink.a */; };
+		DCC70B011BD3CE4B00EFC7C3 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DCC70B001BD3CE4B00EFC7C3 /* README.md */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCC70AFA1BD3CD0F00EFC7C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC70ACB1BD3CC8B00EFC7C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC70AD21BD3CC8B00EFC7C3;
+			remoteInfo = NgUpdateLink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCC70AD11BD3CC8B00EFC7C3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DCC70AD71BD3CC8B00EFC7C3 /* NgUpdateLink.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DCC70AD31BD3CC8B00EFC7C3 /* libNgUpdateLink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNgUpdateLink.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC70AD61BD3CC8B00EFC7C3 /* NgUpdateLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NgUpdateLink.h; sourceTree = "<group>"; };
+		DCC70AD81BD3CC8B00EFC7C3 /* NgUpdateLink.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NgUpdateLink.m; sourceTree = "<group>"; };
+		DCC70AE31BD3CC9600EFC7C3 /* NgUpdateLinkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NgUpdateLinkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC70AE61BD3CC9600EFC7C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCC70AE81BD3CC9600EFC7C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCC70AE91BD3CC9600EFC7C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCC70AEB1BD3CC9600EFC7C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCC70AEC1BD3CC9600EFC7C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCC70AEF1BD3CC9600EFC7C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCC70AF11BD3CC9600EFC7C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCC70AF41BD3CC9600EFC7C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCC70AF61BD3CC9600EFC7C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC70AFD1BD3CDFE00EFC7C3 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DCC70AFE1BD3CE0B00EFC7C3 /* NgUpdateLink.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NgUpdateLink.podspec; sourceTree = "<group>"; };
+		DCC70AFF1BD3CE3D00EFC7C3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DCC70B001BD3CE4B00EFC7C3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCC70AD01BD3CC8B00EFC7C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC70AE01BD3CC9600EFC7C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC70AFC1BD3CD1300EFC7C3 /* libNgUpdateLink.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCC70ACA1BD3CC8B00EFC7C3 = {
+			isa = PBXGroup;
+			children = (
+				DCC70B001BD3CE4B00EFC7C3 /* README.md */,
+				DCC70AFD1BD3CDFE00EFC7C3 /* .gitignore */,
+				DCC70AFE1BD3CE0B00EFC7C3 /* NgUpdateLink.podspec */,
+				DCC70AFF1BD3CE3D00EFC7C3 /* LICENSE */,
+				DCC70AD51BD3CC8B00EFC7C3 /* NgUpdateLink */,
+				DCC70AE41BD3CC9600EFC7C3 /* NgUpdateLinkDemo */,
+				DCC70AD41BD3CC8B00EFC7C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCC70AD41BD3CC8B00EFC7C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCC70AD31BD3CC8B00EFC7C3 /* libNgUpdateLink.a */,
+				DCC70AE31BD3CC9600EFC7C3 /* NgUpdateLinkDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCC70AD51BD3CC8B00EFC7C3 /* NgUpdateLink */ = {
+			isa = PBXGroup;
+			children = (
+				DCC70AD61BD3CC8B00EFC7C3 /* NgUpdateLink.h */,
+				DCC70AD81BD3CC8B00EFC7C3 /* NgUpdateLink.m */,
+			);
+			path = NgUpdateLink;
+			sourceTree = "<group>";
+		};
+		DCC70AE41BD3CC9600EFC7C3 /* NgUpdateLinkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DCC70AE81BD3CC9600EFC7C3 /* AppDelegate.h */,
+				DCC70AE91BD3CC9600EFC7C3 /* AppDelegate.m */,
+				DCC70AEB1BD3CC9600EFC7C3 /* ViewController.h */,
+				DCC70AEC1BD3CC9600EFC7C3 /* ViewController.m */,
+				DCC70AEE1BD3CC9600EFC7C3 /* Main.storyboard */,
+				DCC70AF11BD3CC9600EFC7C3 /* Assets.xcassets */,
+				DCC70AF31BD3CC9600EFC7C3 /* LaunchScreen.storyboard */,
+				DCC70AF61BD3CC9600EFC7C3 /* Info.plist */,
+				DCC70AE51BD3CC9600EFC7C3 /* Supporting Files */,
+			);
+			path = NgUpdateLinkDemo;
+			sourceTree = "<group>";
+		};
+		DCC70AE51BD3CC9600EFC7C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCC70AE61BD3CC9600EFC7C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCC70AD21BD3CC8B00EFC7C3 /* NgUpdateLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC70ADC1BD3CC8B00EFC7C3 /* Build configuration list for PBXNativeTarget "NgUpdateLink" */;
+			buildPhases = (
+				DCC70ACF1BD3CC8B00EFC7C3 /* Sources */,
+				DCC70AD01BD3CC8B00EFC7C3 /* Frameworks */,
+				DCC70AD11BD3CC8B00EFC7C3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NgUpdateLink;
+			productName = NgUpdateLink;
+			productReference = DCC70AD31BD3CC8B00EFC7C3 /* libNgUpdateLink.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DCC70AE21BD3CC9600EFC7C3 /* NgUpdateLinkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC70AF71BD3CC9600EFC7C3 /* Build configuration list for PBXNativeTarget "NgUpdateLinkDemo" */;
+			buildPhases = (
+				DCC70ADF1BD3CC9600EFC7C3 /* Sources */,
+				DCC70AE01BD3CC9600EFC7C3 /* Frameworks */,
+				DCC70AE11BD3CC9600EFC7C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC70AFB1BD3CD0F00EFC7C3 /* PBXTargetDependency */,
+			);
+			name = NgUpdateLinkDemo;
+			productName = NgUpdateLinkDemo;
+			productReference = DCC70AE31BD3CC9600EFC7C3 /* NgUpdateLinkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCC70ACB1BD3CC8B00EFC7C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = BlockThirty;
+				TargetAttributes = {
+					DCC70AD21BD3CC8B00EFC7C3 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					DCC70AE21BD3CC9600EFC7C3 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = DCC70ACE1BD3CC8B00EFC7C3 /* Build configuration list for PBXProject "NgUpdateLink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCC70ACA1BD3CC8B00EFC7C3;
+			productRefGroup = DCC70AD41BD3CC8B00EFC7C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCC70AD21BD3CC8B00EFC7C3 /* NgUpdateLink */,
+				DCC70AE21BD3CC9600EFC7C3 /* NgUpdateLinkDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCC70AE11BD3CC9600EFC7C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC70AF51BD3CC9600EFC7C3 /* LaunchScreen.storyboard in Resources */,
+				DCC70AF21BD3CC9600EFC7C3 /* Assets.xcassets in Resources */,
+				DCC70AF01BD3CC9600EFC7C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCC70ACF1BD3CC8B00EFC7C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC70B011BD3CE4B00EFC7C3 /* README.md in Sources */,
+				DCC70AD91BD3CC8B00EFC7C3 /* NgUpdateLink.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC70ADF1BD3CC9600EFC7C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC70AED1BD3CC9600EFC7C3 /* ViewController.m in Sources */,
+				DCC70AEA1BD3CC9600EFC7C3 /* AppDelegate.m in Sources */,
+				DCC70AE71BD3CC9600EFC7C3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCC70AFB1BD3CD0F00EFC7C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC70AD21BD3CC8B00EFC7C3 /* NgUpdateLink */;
+			targetProxy = DCC70AFA1BD3CD0F00EFC7C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCC70AEE1BD3CC9600EFC7C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC70AEF1BD3CC9600EFC7C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCC70AF31BD3CC9600EFC7C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC70AF41BD3CC9600EFC7C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCC70ADA1BD3CC8B00EFC7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCC70ADB1BD3CC8B00EFC7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCC70ADD1BD3CC8B00EFC7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DCC70ADE1BD3CC8B00EFC7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DCC70AF81BD3CC9600EFC7C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = NgUpdateLinkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockthirty.NgUpdateLinkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCC70AF91BD3CC9600EFC7C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = NgUpdateLinkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.blockthirty.NgUpdateLinkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCC70ACE1BD3CC8B00EFC7C3 /* Build configuration list for PBXProject "NgUpdateLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC70ADA1BD3CC8B00EFC7C3 /* Debug */,
+				DCC70ADB1BD3CC8B00EFC7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC70ADC1BD3CC8B00EFC7C3 /* Build configuration list for PBXNativeTarget "NgUpdateLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC70ADD1BD3CC8B00EFC7C3 /* Debug */,
+				DCC70ADE1BD3CC8B00EFC7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCC70AF71BD3CC9600EFC7C3 /* Build configuration list for PBXNativeTarget "NgUpdateLinkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC70AF81BD3CC9600EFC7C3 /* Debug */,
+				DCC70AF91BD3CC9600EFC7C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCC70ACB1BD3CC8B00EFC7C3 /* Project object */;
+}
