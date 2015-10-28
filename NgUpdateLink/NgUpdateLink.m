@@ -24,7 +24,7 @@
     [CADisplayLink displayLinkWithTarget:self
                                 selector:@selector(update:)];
     [displayLink addToRunLoop:[NSRunLoop mainRunLoop]
-                      forMode:NSDefaultRunLoopMode];
+                      forMode:NSRunLoopCommonModes];
     self.displayLink = displayLink;
     self.nextUpdatesLock = [[NSRecursiveLock alloc] init];
     self.nextUpdates = [NSHashTable hashTableWithOptions:NSPointerFunctionsWeakMemory];
