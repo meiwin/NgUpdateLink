@@ -13,5 +13,5 @@
 
 @property (nonatomic, weak) IBOutlet UILabel    * textLabel;
 - (IBAction)increment:(id)sender;
-
+- (IBAction)decrement:(id)sender;
 @end

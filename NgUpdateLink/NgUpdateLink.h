@@ -11,8 +11,6 @@
 #pragma mark -
 @protocol NgUpdateLinkUpdate <NSObject>
 @required
-- (void)ng_setNeedsUpdate; // default to NSDefaultRunLoopMode
-- (void)ng_setNeedsUpdate:(NSString *)runLoopMode;
 - (void)ng_update;
 @end
 
@@ -32,6 +30,8 @@
 
 - (void)ng_setNeedsUpdate;
 - (void)ng_setNeedsUpdate:(NSString *)runLoopMode;
+- (void)ng_setNeedsUpdateWithAction:(SEL)action; // default to NSDefaultRunLoopMode
+- (void)ng_setNeedsUpdate:(NSString *)runLoopMode action:(SEL)action;
 - (void)ng_update;
 
 @end

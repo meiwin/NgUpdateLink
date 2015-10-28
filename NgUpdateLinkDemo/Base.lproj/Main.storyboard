@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -21,31 +21,46 @@
                                 <rect key="frame" x="20" y="60" width="560" height="21"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="VqV-fB-4tt"/>
+                                    <constraint firstAttribute="height" constant="21" id="AsB-QF-1ul"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efz-sJ-bKE">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efz-sJ-bKE">
                                 <rect key="frame" x="20" y="129" width="560" height="30"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="mIv-AZ-Lwu"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <state key="normal" title="Increment"/>
                                 <connections>
                                     <action selector="increment:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fdy-hi-wbQ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GVZ-5m-qk0">
+                                <rect key="frame" x="20" y="165" width="560" height="33"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <state key="normal" title="Decrement"/>
+                                <connections>
+                                    <action selector="decrement:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0UG-Ht-gRj"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="6be-FR-cU3" firstAttribute="trailing" secondItem="efz-sJ-bKE" secondAttribute="trailing" id="0Hc-Db-bAr"/>
-                            <constraint firstItem="6be-FR-cU3" firstAttribute="leading" secondItem="efz-sJ-bKE" secondAttribute="leading" id="1YL-CO-LBd"/>
-                            <constraint firstItem="efz-sJ-bKE" firstAttribute="top" secondItem="6be-FR-cU3" secondAttribute="bottom" constant="48" id="B0q-qt-exy"/>
-                            <constraint firstItem="6be-FR-cU3" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="IsS-Tm-f71"/>
-                            <constraint firstItem="6be-FR-cU3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="h3W-Yd-KM5"/>
-                            <constraint firstItem="6be-FR-cU3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="jws-Sb-I4y"/>
+                            <constraint firstItem="GVZ-5m-qk0" firstAttribute="trailing" secondItem="efz-sJ-bKE" secondAttribute="trailing" id="1jc-NX-tjt"/>
+                            <constraint firstItem="6be-FR-cU3" firstAttribute="leading" secondItem="efz-sJ-bKE" secondAttribute="leading" id="4gt-j7-0xy"/>
+                            <constraint firstItem="efz-sJ-bKE" firstAttribute="trailing" secondItem="6be-FR-cU3" secondAttribute="trailing" id="S8j-3G-KIR"/>
+                            <constraint firstItem="6be-FR-cU3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="aA7-RC-xjZ"/>
+                            <constraint firstItem="efz-sJ-bKE" firstAttribute="leading" secondItem="GVZ-5m-qk0" secondAttribute="leading" id="b4s-4I-DhI"/>
+                            <constraint firstItem="6be-FR-cU3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="cQ4-Cp-VVT"/>
+                            <constraint firstItem="GVZ-5m-qk0" firstAttribute="top" secondItem="efz-sJ-bKE" secondAttribute="bottom" constant="6" id="frZ-gR-LGN"/>
+                            <constraint firstItem="efz-sJ-bKE" firstAttribute="top" secondItem="6be-FR-cU3" secondAttribute="bottom" constant="48" id="l91-tg-HL3"/>
+                            <constraint firstItem="6be-FR-cU3" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="pZ8-8N-eiH"/>
                         </constraints>
                     </view>
                     <connections>

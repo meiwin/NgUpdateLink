@@ -22,7 +22,14 @@
   self.counter++;
   [self ng_setNeedsUpdate];
 }
+- (void)decrement:(id)sender {
+  self.counter--;
+  [self ng_setNeedsUpdateWithAction:@selector(updateLabel)];
+}
 - (void)ng_update {
+  self.textLabel.text = [NSString stringWithFormat:@"%ld", self.counter];
+}
+- (void)updateLabel {
   self.textLabel.text = [NSString stringWithFormat:@"%ld", self.counter];
 }
 @end
