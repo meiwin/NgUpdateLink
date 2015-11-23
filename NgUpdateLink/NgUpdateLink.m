@@ -77,6 +77,7 @@
                       forMode:runLoopMode];
     
     self.displayLink = displayLink;
+    self.actionUpdates = [NSMutableDictionary dictionary];
     self.nextUpdatesLock = [[NSRecursiveLock alloc] init];
     self.nextUpdates = [NSHashTable hashTableWithOptions:NSPointerFunctionsWeakMemory];
   }
