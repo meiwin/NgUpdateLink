@@ -21,7 +21,8 @@ NgUpdateLink supports scheduling updates in both `NSDefaultRunLoopMode` and `NSC
 The library includes a NSObject category that allows every object to easily schedule an update.
 
 There are 2 ways to do it:
-1. By calling `-ng_setNeedsUpdate` (or `-ng_setNeedsUpdate:` with desired run loop mode) to schedule. The object that calls this method will receive `ng_update` callback. 
+
+1. By calling `-ng_setNeedsUpdate` (or `-ng_setNeedsUpdate:` with desired run loop mode) to schedule. The object that calls this method will receive `ng_update` callback.
 2. By calling `-ng_setNeedsUpdateWithAction:` (or `-ng_setNeedsUpdate:action:`) to schedule update with specific method callback.
 
 ## Usage
